@@ -1,0 +1,28 @@
+table {
+  max-width: 800px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid;
+}
+
+.card {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.card--user {
+  display: none !important;
+}
+
+.card--user.open {
+  display: block !important;
+}
+
+.btn {
+  margin-right: 20px;
+}
